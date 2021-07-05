@@ -1,0 +1,30 @@
+<template>
+<div>
+  <NavMenu />
+</div>
+</template>
+
+<script>
+import NavMenu from './Lazy/index.vue'
+
+export default {
+  name: 'App',
+  components: {
+    NavMenu
+  }
+}
+</script>
+<style>
+*{
+  margin: 0;
+  padding:0;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+</style>
